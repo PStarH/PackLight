@@ -2,6 +2,14 @@
 
 PackLight is a modern, user-friendly packing list application built with React and TypeScript. Create and manage packing lists using pre-made templates or create your own custom templates for different types of trips and activities.
 
+## 🌐 Live Preview
+
+Check out the live application: [PackLight Demo](https://pack-light-lovat.vercel.app/)
+
+## 📸 Preview
+
+![PackLight Screenshot](./screenshot.png)
+
 ## Features ✨
 
 - 📝 Pre-made packing list templates
