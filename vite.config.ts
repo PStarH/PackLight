@@ -17,6 +17,7 @@ export default defineConfig({
       scope: '/',
       orientation: 'portrait',
       icons: [
+        // Regular (any) icons
         {
           src: '/AppImages/windows11/LargeTile.scale-400.png',
           sizes: '1240x1240',
@@ -33,13 +34,39 @@ export default defineConfig({
           src: '/AppImages/android/android-launchericon-512-512.png',
           sizes: '512x512',
           type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: '/AppImages/android/android-launchericon-192-192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        
+        // Maskable icons
+        {
+          src: '/AppImages/windows11/LargeTile.scale-400.png',
+          sizes: '1240x1240',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: '/AppImages/ios/1024.png',
+          sizes: '1024x1024',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: '/AppImages/android/android-launchericon-512-512.png',
+          sizes: '512x512',
+          type: 'image/png',
           purpose: 'maskable'
         },
         {
           src: '/AppImages/android/android-launchericon-192-192.png',
           sizes: '192x192',
           type: 'image/png',
-          purpose: 'any maskable'
+          purpose: 'maskable'
         }
       ]
     },
