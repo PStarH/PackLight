@@ -18,24 +18,28 @@ export default defineConfig({
       orientation: 'portrait',
       icons: [
         {
-          src: '/AppImages/windows11/Square44x44Logo.scale-400.png',
-          sizes: '176x176',
-          type: 'image/png'
-        },
-        {
-          src: '/AppImages/windows11/Square150x150Logo.scale-400.png',
-          sizes: '600x600',
-          type: 'image/png'
-        },
-        {
           src: '/AppImages/windows11/LargeTile.scale-400.png',
           sizes: '1240x1240',
-          type: 'image/png'
+          type: 'image/png',
+          purpose: 'any'
         },
         {
           src: '/AppImages/ios/1024.png',
           sizes: '1024x1024',
-          type: 'image/png'
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: '/AppImages/android/android-launchericon-512-512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: '/AppImages/android/android-launchericon-192-192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'maskable'
         }
       ]
     }
