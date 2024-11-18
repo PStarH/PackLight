@@ -18,25 +18,25 @@ export default defineConfig({
       orientation: 'portrait',
       icons: [
         {
-          src: '/icon-192.png',
+          src: '/src/backpack.png',
           sizes: '192x192',
           type: 'image/png',
           purpose: 'any'
         },
         {
-          src: '/icon-512.png',
+          src: '/src/backpack.png',
           sizes: '512x512',
           type: 'image/png',
           purpose: 'any'
         },
         {
-          src: '/icon-192-maskable.png',
+          src: '/src/backpack.png',
           sizes: '192x192',
           type: 'image/png',
           purpose: 'maskable'
         },
         {
-          src: '/icon-512-maskable.png',
+          src: '/src/backpack.png',
           sizes: '512x512',
           type: 'image/png',
           purpose: 'maskable'
