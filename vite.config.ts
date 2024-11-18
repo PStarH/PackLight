@@ -39,10 +39,11 @@ export default defineConfig({
           src: '/AppImages/android/android-launchericon-192-192.png',
           sizes: '192x192',
           type: 'image/png',
-          purpose: 'maskable'
+          purpose: 'any maskable'
         }
       ]
-    }
+    },
+    includeAssets: ['AppImages/**/*']
   })],
   optimizeDeps: {
     exclude: ['lucide-react'],
