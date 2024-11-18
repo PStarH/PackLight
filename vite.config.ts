@@ -18,28 +18,24 @@ export default defineConfig({
       orientation: 'portrait',
       icons: [
         {
-          src: '/src/backpack.png',
-          sizes: '192x192',
-          type: 'image/png',
-          purpose: 'any'
+          src: '/AppImages/windows11/Square44x44Logo.scale-400.png',
+          sizes: '176x176',
+          type: 'image/png'
         },
         {
-          src: '/src/backpack.png',
-          sizes: '512x512',
-          type: 'image/png',
-          purpose: 'any'
+          src: '/AppImages/windows11/Square150x150Logo.scale-400.png',
+          sizes: '600x600',
+          type: 'image/png'
         },
         {
-          src: '/src/backpack.png',
-          sizes: '192x192',
-          type: 'image/png',
-          purpose: 'maskable'
+          src: '/AppImages/windows11/LargeTile.scale-400.png',
+          sizes: '1240x1240',
+          type: 'image/png'
         },
         {
-          src: '/src/backpack.png',
-          sizes: '512x512',
-          type: 'image/png',
-          purpose: 'maskable'
+          src: '/AppImages/ios/1024.png',
+          sizes: '1024x1024',
+          type: 'image/png'
         }
       ]
     }
