@@ -1,8 +1,8 @@
 {
   "icons": [
     {
-      "src": "/path/to/your/icon-512x512.png",
-      "sizes": "512x512",
+      "src": "./src/backpack.png",
+      "sizes": "1024x1024 512x512 384x384 192x192 128x128 96x96",
       "type": "image/png"
     }
   ]
